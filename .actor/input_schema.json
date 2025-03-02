@@ -1,0 +1,15 @@
+{
+    "title": "Query multiple travel websites",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+         "query": {
+            "title": "Query",
+            "type": "string",
+            "description": "Accommodations you'd like to browse",
+            "editor": "string"
+        }
+    },
+    "required": ["query"]
+}
+
