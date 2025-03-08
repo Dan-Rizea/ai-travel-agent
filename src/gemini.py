@@ -4,8 +4,6 @@ from apify import Actor
 import google.generativeai as genai
 import os
 
-from google.generativeai import GenerativeModel
-
 
 async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model="gemini-2.0-flash-lite", max_tokens=100000) -> json:
     """

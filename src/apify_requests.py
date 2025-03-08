@@ -9,7 +9,6 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
     booking_input: json = input_response["bookingdotcom"]
 
     # CHANGE TO USER INPUT IN PROD
-    scraping_limit = 10
     booking_input["maxItems"] = scraping_limit
 
     if booking_input["propertyType"] is None: del booking_input["propertyType"]
@@ -20,10 +19,11 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
     if booking_input["children"] is None: del booking_input["children"]
     if booking_input["minMaxPrice"] is None: del booking_input["minMaxPrice"]
 
-    # output = await __send_apify_request('oeiQgfg5fsmIJB7Cn', booking_input)
-    output = get_mock_output("src/templates/bookingdotcom_mock")
+    output = await __send_apify_request('oeiQgfg5fsmIJB7Cn', booking_input, scraping_limit)
+    # output = get_mock_output("src/templates/bookingdotcom_mock")
 
     for entry in output:
+        print(str(entry))
         del entry["location"]
         del entry["image"]
         del entry["images"]
@@ -33,7 +33,7 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
     return output
 
 
-async def get_airbnb_output(input_response: json) -> json:
+async def get_airbnb_output(input_response: json, scraping_limit: int) -> json:
     airbnb_input = input_response["airbnb"]
 
     if airbnb_input["adults"] is None: del airbnb_input["adults"]
@@ -50,8 +50,8 @@ async def get_airbnb_output(input_response: json) -> json:
     if airbnb_input["priceMax"] is None: del airbnb_input["priceMax"]
     if airbnb_input["priceMin"] is None: del airbnb_input["priceMin"]
 
-    # output = await __send_apify_request('GsNzxEKzE2vQ5d9HN', airbnb_input)
-    output = get_mock_output("src/templates/airbnb_mock")
+    output = await __send_apify_request('GsNzxEKzE2vQ5d9HN', airbnb_input, scraping_limit)
+    # output = get_mock_output("src/templates/airbnb_mock")
 
     for entry in output:
         del entry["coordinates"]
@@ -73,7 +73,9 @@ async def __send_apify_request(actor_id: str, actor_input: json, scraping_limit:
     run = client.actor(actor_id).call(run_input=actor_input, max_items=scraping_limit)
 
     # Fetch and print Actor results from the run's dataset (if there are any)
-    json_response = json.dumps(client.dataset(run["defaultDatasetId"]).iterate_items())
-    print(json_response)
+    created_dataset = client.dataset(run["defaultDatasetId"]).list_items()
+
+    # Transpose response into json
+    json_response = json.loads(json.dumps(created_dataset.items))
 
     return json_response
