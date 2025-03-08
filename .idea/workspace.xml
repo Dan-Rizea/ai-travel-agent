@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Initialization">
-      <change afterPath="$PROJECT_DIR$/.actor/pay_per_event.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apify_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/result_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/airbnb_mock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/input_prompt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/output_prompt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.actor/input_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/input_schema.json" afterDir="false" />
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Bughunt #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,18 +115,40 @@
       <option name="project" value="LOCAL" />
       <updated>1740922701835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Almost completed the project">
+      <option name="closed" value="true" />
+      <created>1741449602720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741449602720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bughunt #1">
+      <option name="closed" value="true" />
+      <created>1741466729775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741466729775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialization" />
+    <MESSAGE value="Almost completed the project" />
+    <MESSAGE value="Bughunt #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bughunt #1" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="input_response[0]['bookingdotcom']" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/apify_requests.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

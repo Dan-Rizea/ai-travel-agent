@@ -1,0 +1,4 @@
+apify < 3.0
+
+protobuf~=5.29.3
+apify_client~=1.9.2

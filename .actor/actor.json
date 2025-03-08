@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "my-actor",
+    "title": "Empty Python project",
+    "description": "Empty project in Python.",
+    "version": "0.0",
+    "buildTag": "latest",
+    "environmentVariables": {
+    "GEMINI_API_KEY": "@GEMINI_API_KEY"
+    },
+    "meta": {
+        "templateId": "python-empty"
+    },
+    "dockerfile": "./Dockerfile"
+}
