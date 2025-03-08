@@ -3,13 +3,32 @@
     "type": "object",
     "schemaVersion": 1,
     "properties": {
-         "query": {
-            "title": "Query",
+        "filter": {
+            "title": "Input Filter",
             "type": "string",
-            "description": "Accommodations you'd like to browse",
-            "editor": "string"
+            "description": "Basic search criteria for accommodations (e.g., location, dates, or keywords)",
+            "editor": "textarea"
+        },
+        "advancedFilter": {
+            "title": "Advanced Filter",
+            "type": "string",
+            "description": "Additional criteria for filtering accommodations (e.g., price range, amenities)",
+            "editor": "textarea"
+        },
+        "scrapingLimit": {
+            "title": "Scraping Limit",
+            "type": "integer",
+            "description": "Maximum number of accommodations to scrape from each website",
+            "minimum": 0,
+            "default": 240
+        },
+        "matchExactFilter": {
+            "title": "Match Exact Filter",
+            "type": "boolean",
+            "description": "If true, only return accommodations that exactly match the filtering criteria",
+            "editor": "checkbox",
+            "default": false
         }
     },
-    "required": ["query"]
+    "required": ["filter"]
 }
-

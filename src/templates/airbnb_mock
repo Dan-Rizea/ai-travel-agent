@@ -1,0 +1,1328 @@
+[
+    {
+        "id": "944679429779414633",
+        "coordinates": {
+            "latitude": 41.556344198092354,
+            "longitude": 2.0234377343933163
+        },
+        "descriptionOriginalLanguage": "es",
+        "metaDescription": "Mar 5, 2025 - Entire rental unit for $131. Disfruta de este bonito duplex, muy tranquilo y bien ubicado.  El apartamento esta perfectamente conectado con el centro y la ciudad de Barcelona. ...",
+        "seoTitle": "Beautiful and elegant duplex in Terrassa, Barcelona - Apartments for Rent in Terrassa, Catalunya, Spain - Airbnb",
+        "sharingConfigTitle": "Rental unit in Terrassa · ★4.64 · 2 bedrooms · 3 beds · 2 baths",
+        "thumbnail": "https://a0.muscache.com/pictures/miso/Hosting-944679429779414633/original/9052772a-6068-4805-8d8f-268639cd69bd.jpeg",
+        "url": "https://www.airbnb.com/rooms/944679429779414633?locale=en-US&currency=USD&check_in=2025-06-01&check_out=2025-06-10",
+        "androidLink": "airbnb://rooms/944679429779414633",
+        "iosLink": "airbnb://rooms/944679429779414633",
+        "propertyType": "Entire rental unit",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 3,
+        "rating": {
+            "accuracy": 4.71,
+            "checking": 4.58,
+            "cleanliness": 4.76,
+            "communication": 4.82,
+            "location": 4.18,
+            "value": 4.56,
+            "guestSatisfaction": 4.64,
+            "reviewsCount": 45
+        },
+        "breadcrumbs": [
+            {
+                "linkRoute": "/terrassa-spain/stays",
+                "linkText": "Terrassa",
+                "searchText": "Terrassa, Spain"
+            },
+            {
+                "linkRoute": "/s/homes",
+                "linkText": "Stays",
+                "searchText": ""
+            },
+            {
+                "linkRoute": "/",
+                "linkText": "Airbnb",
+                "searchText": ""
+            }
+        ],
+        "location": "Terrassa",
+        "host": {
+            "id": "RGVtYW5kVXNlcjo3MjkyMDY5Mg==",
+            "name": "Lluis",
+            "profileImage": "https://a0.muscache.com/im/pictures/user/ed4b7fcc-105a-4014-b944-53ace3266291.jpg",
+            "isSuperHost": false,
+            "isVerified": true,
+            "highlights": [
+                "Speaks English, French, German, and Spanish",
+                "Lives in Terrassa, Spain"
+            ],
+            "about": "",
+            "ratingCount": 130,
+            "ratingAverage": 4.71,
+            "hostDetails": [
+                "Response rate: 100%",
+                "Responds within an hour"
+            ],
+            "timeAsHost": {
+                "months": 7,
+                "years": 1
+            }
+        },
+        "coHosts": [],
+        "locationSubtitle": "Terrassa, Catalunya, Spain",
+        "locationDescriptions": [
+            {
+                "title": "Terrassa, Catalunya, Spain",
+                "content": "The apartment is located in a quiet residential neighborhood that has the basic commercial activity to be able to live comfortably.<br />It is located on the edge of the Vallparadis park, perfect for walking or sports inside the city as it is very extensive and pleasant. Communication with the train station is easy and it will only take a 10 minute walk. <br />Very well connected to the city of Barcelona either by train (40 minutes), car (30 minutes), or bus (40 minutes).",
+                "mapMarkerRadiusInMeters": 0
+            },
+            {
+                "title": "Getting around",
+                "content": "Walking downtown is 10-15 minutes away as well as to the train and bus station. They will be good options if you don't have a car.",
+                "mapMarkerRadiusInMeters": 0
+            }
+        ],
+        "title": "Beautiful and elegant duplex in Terrassa, Barcelona",
+        "description": "Enjoy this nice duplex, very quiet and conveniently located.The apartment is perfectly connected to the center and the city of Barcelona. The train station is only 10 minutes away.The apartment has the basic services are very close by.In the accommodation you can rest and spend pleasant times as it has all the necessary equipment for any type of stay.The spaceAt the access floor we found a single room along with a full bathThen we find the day area with the same atmosphere for the living-dining room along with the kitchen (fully equipped). From the day area we have access to a nice balcony.On the first floor we find the suite room very spacious (160cm bed) and directly exit to a beautiful terrace perfect for sunbathing or cooling off with the shower/hose. The apartment has gas heating and air conditioning on the two floors so it is perfectly air-conditioned.Guest accessThe apartment has access through the front door of the Albinyana street building and going up with the elevator we will access the perfectly identified apartment.Other things to noteAccess to the house is fully automated with the NUKI system, instructions will be sent a few days before arrival.Registration numberHUTB-073134",
+        "htmlDescription": {
+            "htmlText": "Enjoy this nice duplex, very quiet and conveniently located.<br /><br />The apartment is perfectly connected to the center and the city of Barcelona. The train station is only 10 minutes away.<br />The apartment has the basic services are very close by.<br /><br />In the accommodation you can rest and spend pleasant times as it has all the necessary equipment for any type of stay.<br /><br /><b>The space</b><br />At the access floor we found a single room along with a full bath<br />Then we find the day area with the same atmosphere for the living-dining room along with the kitchen (fully equipped). From the day area we have access to a nice balcony.<br />On the first floor we find the suite room very spacious (160cm bed) and directly exit to a beautiful terrace perfect for sunbathing or cooling off with the shower/hose. <br />The apartment has gas heating and air conditioning on the two floors so it is perfectly air-conditioned.<br /><br /><b>Guest access</b><br />The apartment has access through the front door of the Albinyana street building and going up with the elevator we will access the perfectly identified apartment.<br /><br /><b>Other things to note</b><br />Access to the house is fully automated with the NUKI system, instructions will be sent a few days before arrival.<br /><br /><b>Registration number</b><br />HUTB-073134",
+            "recommendedNumberOfLines": 6
+        },
+        "subDescription": {
+            "title": "Entire rental unit in Terrassa, Spain",
+            "items": [
+                "3 guests",
+                "2 bedrooms",
+                "3 beds",
+                "2 baths"
+            ]
+        },
+        "price": {
+            "label": "$159 per night",
+            "qualifier": "night",
+            "price": "$159",
+            "originalPrice": null,
+            "discountedPrice": null,
+            "breakDown": {
+                "basePrice": {
+                    "description": "$137 x 9 nights",
+                    "price": "$1,233"
+                },
+                "basePriceBreakdown": [],
+                "serviceFee": {
+                    "price": "$222",
+                    "description": "Airbnb service fee"
+                },
+                "taxes": null,
+                "total": null,
+                "totalBeforeTaxes": null,
+                "cleaningFee": {
+                    "price": "$32",
+                    "description": "Cleaning fee"
+                },
+                "specialOffer": null,
+                "earlyBirdDiscount": null
+            }
+        },
+        "brandHighlights": {
+            "title": "Extraordinary homes, vetted for quality.",
+            "subtitle": null,
+            "hasGoldenLaurel": null
+        },
+        "images": [
+            {
+                "caption": "Living room - Dining room - Kitchen",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/9052772a-6068-4805-8d8f-268639cd69bd.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Salon",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/8ef14bd1-65f1-4345-8a16-a94de9d53894.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Living room - Dining room\n",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/47bb4e30-2a91-41ed-9526-6815104965d8.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Living room - Dining room",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/b4efd220-47be-455b-80e5-1162299b2cd4.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Equipped kitchen",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/273c0fda-220f-462e-a81b-1e4431d2d1fd.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Kitchen.",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/8bc53bb3-ed76-4513-9431-68b1902d117a.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Living room - Dining room",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/4e19d20f-0f27-4554-ade4-069b6d23af82.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Equipped kitchen",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/235bb522-840a-41bd-a047-da220a82cd8c.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Dining table / Lounge",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/902670c4-9d73-42cc-8d61-64e69e3b9a84.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Suite type double room with terrace",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/2d008678-dd5e-4de7-82f1-b938a06dfec9.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Double room with terrace",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/83738e52-d371-4627-b976-8be1616a40ce.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Double room bed",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/609be5af-4dd0-4d2a-88df-5ccd4695be4b.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Suite Bedroom",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/a7a1a0c4-2c09-4996-927d-979e09db507b.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Single Room",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/3a2a52b1-cfce-4888-ad5e-e22bc8ccee3d.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Single Room",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/99154370-ccaa-4364-a98f-a09b54ab8a11.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Single Room",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/1fc12e61-8bc1-4ce1-9fb5-0cf50473e3b1.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Suite Bathroom",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/df64770c-6846-471a-8188-4f9e99e7070c.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Bathroom Suite",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/a1f013ec-df5b-4dbe-9693-ae3cd10983d8.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Bathroom with shower tray",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/c71edd84-f36e-41f3-b22c-c8ee434e4994.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Hallway, entrance, layout, bathroom, bedroom, bedroom, kitchen, kitchen",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/2eed3be6-304a-4754-b516-7bca4d37aaa9.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Terrace",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/db630138-ba9a-4fee-a3e8-99106629b0bb.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Balcony",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/8a70ef22-6ed1-442d-9790-309810a790d3.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Double room bed",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/ad3a2eda-9b7b-4513-8e11-eb3033759b5b.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Balcony",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/8a802358-d095-4ec0-b5d2-52d6713b5ad9.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Dining table / Lounge",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/b1fc8be3-5467-4ad6-9124-59bf4c1b92b0.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Entrance hallway",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/a889db58-bdb8-4b1d-9a3a-db8c2805c80a.jpeg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "NUKI Smartlock system",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-944679429779414633/original/0a313f71-36b5-40ac-b322-32ca21e9b43b.jpeg",
+                "orientation": "LANDSCAPE"
+            }
+        ],
+        "highlights": [
+            {
+                "title": "Self check-in",
+                "subtitle": "Check yourself in with the smartlock.",
+                "icon": "SYSTEM_CHECK_IN",
+                "type": "LISTING_SELF_CHECKIN"
+            },
+            {
+                "title": "Mountain and city views",
+                "subtitle": "Soak up the views during your stay.",
+                "icon": "SYSTEM_VIEW_MOUNTAIN",
+                "type": "LISTING_VIEWS_AMENITY"
+            },
+            {
+                "title": "Free cancellation before May 27",
+                "subtitle": "Get a full refund if you change your mind.",
+                "icon": "SYSTEM_CALENDAR",
+                "type": "LISTING_CANCELLATION_POLICY"
+            }
+        ],
+        "houseRules": {
+            "additional": null,
+            "general": [
+                {
+                    "title": "Checking in and out",
+                    "values": [
+                        {
+                            "title": "Check-in: 3:00 PM - 11:00 PM",
+                            "icon": "SYSTEM_CLOCK"
+                        },
+                        {
+                            "title": "Checkout before 11:00 AM",
+                            "icon": "SYSTEM_CLOCK"
+                        },
+                        {
+                            "title": "Self check-in with smart lock",
+                            "icon": "SYSTEM_CHECK_IN"
+                        }
+                    ]
+                },
+                {
+                    "title": "During your stay",
+                    "values": [
+                        {
+                            "title": "3 guests maximum",
+                            "icon": "SYSTEM_FAMILY"
+                        },
+                        {
+                            "title": "No pets",
+                            "icon": "SYSTEM_NO_PETS"
+                        },
+                        {
+                            "title": "Quiet hours",
+                            "icon": "SYSTEM_EVENING"
+                        },
+                        {
+                            "title": "No parties or events",
+                            "icon": "SYSTEM_NO_EVENTS"
+                        },
+                        {
+                            "title": "No commercial photography",
+                            "icon": "SYSTEM_NO_CAMERA"
+                        },
+                        {
+                            "title": "No smoking",
+                            "icon": "SYSTEM_SMOKING_NOT_ALLOWED"
+                        },
+                        {
+                            "title": "Additional rules",
+                            "icon": "SYSTEM_CLIPBOARD"
+                        }
+                    ]
+                },
+                {
+                    "title": "Before you leave",
+                    "values": [
+                        {
+                            "title": "Throw trash away",
+                            "icon": "SYSTEM_TRASH"
+                        },
+                        {
+                            "title": "Turn things off",
+                            "icon": "SYSTEM_POWER_SWITCH"
+                        },
+                        {
+                            "title": "Return keys",
+                            "icon": "SYSTEM_HOST_OWNERS"
+                        },
+                        {
+                            "title": "Additional requests",
+                            "icon": "SYSTEM_NOTE_PAPER"
+                        }
+                    ]
+                }
+            ]
+        },
+        "cancellationPolicies": [
+            {
+                "title": "Free cancellation before May 27. Cancel before check-in on Jun 1 for a partial refund.",
+                "policyName": "Moderate",
+                "policyId": 4
+            }
+        ],
+        "amenities": [
+            {
+                "title": "Scenic views",
+                "values": [
+                    {
+                        "title": "City skyline view",
+                        "subtitle": "",
+                        "icon": "SYSTEM_VIEW_CITY",
+                        "available": true
+                    },
+                    {
+                        "title": "Mountain view",
+                        "subtitle": "",
+                        "icon": "SYSTEM_VIEW_MOUNTAIN",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Bathroom",
+                "values": [
+                    {
+                        "title": "Hair dryer",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HAIRDRYER",
+                        "available": true
+                    },
+                    {
+                        "title": "Cleaning products",
+                        "subtitle": "",
+                        "icon": "SYSTEM_CLEANING_SUPPLIES",
+                        "available": true
+                    },
+                    {
+                        "title": "Shampoo",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SHAMPOO",
+                        "available": true
+                    },
+                    {
+                        "title": "Body soap",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SOAP",
+                        "available": true
+                    },
+                    {
+                        "title": "Outdoor shower",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SHOWER",
+                        "available": true
+                    },
+                    {
+                        "title": "Hot water",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HOT_WATER",
+                        "available": true
+                    },
+                    {
+                        "title": "Shower gel",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SOAP",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Bedroom and laundry",
+                "values": [
+                    {
+                        "title": "Washer",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WASHER",
+                        "available": true
+                    },
+                    {
+                        "title": "Essentials",
+                        "subtitle": "Towels, bed sheets, soap, and toilet paper",
+                        "icon": "SYSTEM_TOILETRIES",
+                        "available": true
+                    },
+                    {
+                        "title": "Hangers",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HANGERS",
+                        "available": true
+                    },
+                    {
+                        "title": "Bed linens",
+                        "subtitle": "",
+                        "icon": "SYSTEM_BLANKETS",
+                        "available": true
+                    },
+                    {
+                        "title": "Extra pillows and blankets",
+                        "subtitle": "",
+                        "icon": "SYSTEM_PILLOW",
+                        "available": true
+                    },
+                    {
+                        "title": "Room-darkening shades",
+                        "subtitle": "",
+                        "icon": "SYSTEM_BLACKOUT_SHADES",
+                        "available": true
+                    },
+                    {
+                        "title": "Iron",
+                        "subtitle": "",
+                        "icon": "SYSTEM_IRON",
+                        "available": true
+                    },
+                    {
+                        "title": "Drying rack for clothing",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HANGERS",
+                        "available": true
+                    },
+                    {
+                        "title": "Clothing storage",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WARDROBE",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Entertainment",
+                "values": [
+                    {
+                        "title": "TV with standard cable",
+                        "subtitle": "",
+                        "icon": "SYSTEM_TV",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Heating and cooling",
+                "values": [
+                    {
+                        "title": "Air conditioning",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SNOWFLAKE",
+                        "available": true
+                    },
+                    {
+                        "title": "Heating",
+                        "subtitle": "",
+                        "icon": "SYSTEM_THERMOMETER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Home safety",
+                "values": [
+                    {
+                        "title": "Smoke alarm",
+                        "subtitle": "",
+                        "icon": "SYSTEM_DETECTOR_SMOKE",
+                        "available": true
+                    },
+                    {
+                        "title": "Fire extinguisher",
+                        "subtitle": "",
+                        "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Internet and office",
+                "values": [
+                    {
+                        "title": "Wifi",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WI_FI",
+                        "available": true
+                    },
+                    {
+                        "title": "Dedicated workspace",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WORKSPACE",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Kitchen and dining",
+                "values": [
+                    {
+                        "title": "Kitchen",
+                        "subtitle": "Space where guests can cook their own meals",
+                        "icon": "SYSTEM_COOKING_BASICS",
+                        "available": true
+                    },
+                    {
+                        "title": "Refrigerator",
+                        "subtitle": "",
+                        "icon": "SYSTEM_REFRIGERATOR",
+                        "available": true
+                    },
+                    {
+                        "title": "Microwave",
+                        "subtitle": "",
+                        "icon": "SYSTEM_MICROWAVE",
+                        "available": true
+                    },
+                    {
+                        "title": "Cooking basics",
+                        "subtitle": "Pots and pans, oil, salt and pepper",
+                        "icon": "SYSTEM_COOKING_BASICS",
+                        "available": true
+                    },
+                    {
+                        "title": "Dishes and silverware",
+                        "subtitle": "Bowls, chopsticks, plates, cups, etc.",
+                        "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                        "available": true
+                    },
+                    {
+                        "title": "Stove",
+                        "subtitle": "",
+                        "icon": "SYSTEM_STOVE",
+                        "available": true
+                    },
+                    {
+                        "title": "Oven",
+                        "subtitle": "",
+                        "icon": "SYSTEM_OVEN",
+                        "available": true
+                    },
+                    {
+                        "title": "Coffee maker: Nespresso",
+                        "subtitle": "",
+                        "icon": "SYSTEM_COFFEE_MAKER",
+                        "available": true
+                    },
+                    {
+                        "title": "Wine glasses",
+                        "subtitle": "",
+                        "icon": "SYSTEM_MAPS_BAR",
+                        "available": true
+                    },
+                    {
+                        "title": "Toaster",
+                        "subtitle": "",
+                        "icon": "SYSTEM_TOASTER",
+                        "available": true
+                    },
+                    {
+                        "title": "Baking sheet",
+                        "subtitle": "",
+                        "icon": "SYSTEM_BAKING_SHEET",
+                        "available": true
+                    },
+                    {
+                        "title": "Dining table",
+                        "subtitle": "",
+                        "icon": "SYSTEM_DINING_TABLE",
+                        "available": true
+                    },
+                    {
+                        "title": "Coffee",
+                        "subtitle": "",
+                        "icon": "SYSTEM_COFFEE_MAKER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Parking and facilities",
+                "values": [
+                    {
+                        "title": "Elevator",
+                        "subtitle": "The home or building has an elevator that’s at least 52 inches deep and a doorway at least 32 inches wide",
+                        "icon": "SYSTEM_ELEVATOR",
+                        "available": true
+                    },
+                    {
+                        "title": "Single level home",
+                        "subtitle": "No stairs in home",
+                        "icon": "SYSTEM_NO_STAIRS",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Services",
+                "values": [
+                    {
+                        "title": "Long term stays allowed",
+                        "subtitle": "Allow stay for 28 days or more",
+                        "icon": "SYSTEM_CALENDAR",
+                        "available": true
+                    },
+                    {
+                        "title": "Self check-in",
+                        "subtitle": "",
+                        "icon": "SYSTEM_KEY",
+                        "available": true
+                    },
+                    {
+                        "title": "Smart lock",
+                        "subtitle": "",
+                        "icon": "SYSTEM_LOCK_ON_DOOR",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Not included",
+                "values": [
+                    {
+                        "title": "Exterior security cameras on property",
+                        "subtitle": null,
+                        "icon": "SYSTEM_NO_SURVEILLANCE",
+                        "available": false
+                    },
+                    {
+                        "title": "Dryer",
+                        "subtitle": "",
+                        "icon": "SYSTEM_NO_DRYER",
+                        "available": false
+                    },
+                    {
+                        "title": "Carbon monoxide alarm",
+                        "subtitle": "This place may not have a carbon monoxide detector. Reach out to the host with any questions.",
+                        "icon": "SYSTEM_NO_DETECTOR_CO2",
+                        "available": false
+                    }
+                ]
+            }
+        ],
+        "timestamp": "2025-03-05T21:49:01.570Z",
+        "language": "en",
+        "checkIn": "2025-06-01",
+        "checkOut": "2025-06-10"
+    },
+    {
+        "id": "992827358371195258",
+        "coordinates": {
+            "latitude": 41.473634,
+            "longitude": 1.9304417
+        },
+        "descriptionOriginalLanguage": "es",
+        "metaDescription": "Mar 5, 2025 - Entire rental unit for $164. Precioso apart. de 150 m2 \" a estrenar\". Espectacular cocina de diseño, y amplisimo salón y comedor. Sorprendente y multifuncional doble baño . Tre...",
+        "seoTitle": "! Special and unique. Direct Fira Bcn y Centro - Apartments for Rent in MARTORELL-BARCELONA, Barcelona, Spain - Airbnb",
+        "sharingConfigTitle": "Rental unit in MARTORELL-BARCELONA · ★4.93 · 3 bedrooms · 4 beds · 2 baths",
+        "thumbnail": "https://a0.muscache.com/pictures/bfaaabb6-a76d-4c21-9d5f-c7d8b6e58017.jpg",
+        "url": "https://www.airbnb.com/rooms/992827358371195258?locale=en-US&currency=USD&check_in=2025-06-01&check_out=2025-06-10",
+        "androidLink": "airbnb://rooms/992827358371195258",
+        "iosLink": "airbnb://rooms/992827358371195258",
+        "propertyType": "Entire rental unit",
+        "roomType": "Entire home/apt",
+        "homeTier": 1,
+        "personCapacity": 6,
+        "rating": {
+            "accuracy": 4.85,
+            "checking": 4.93,
+            "cleanliness": 4.93,
+            "communication": 4.89,
+            "location": 4.52,
+            "value": 4.59,
+            "guestSatisfaction": 4.93,
+            "reviewsCount": 27
+        },
+        "breadcrumbs": [
+            {
+                "linkRoute": "/martorell-barcelona-spain/stays",
+                "linkText": "MARTORELL-BARCELONA",
+                "searchText": "MARTORELL-BARCELONA, Spain"
+            },
+            {
+                "linkRoute": "/s/homes",
+                "linkText": "Stays",
+                "searchText": ""
+            },
+            {
+                "linkRoute": "/",
+                "linkText": "Airbnb",
+                "searchText": ""
+            }
+        ],
+        "location": "MARTORELL-BARCELONA",
+        "host": {
+            "id": "RGVtYW5kVXNlcjoyOTE1Mjkx",
+            "name": "Jaume",
+            "profileImage": "https://a0.muscache.com/im/users/2915291/profile_pic/1342959184/original.jpg",
+            "isSuperHost": true,
+            "isVerified": true,
+            "highlights": [
+                "Born in the 50s",
+                "My work: JUBILATED ECONOMIST"
+            ],
+            "about": "I LIKE THE PEOPLE AROUND ME HAVE A GOOD TIME",
+            "ratingCount": 28,
+            "ratingAverage": 4.93,
+            "hostDetails": [
+                "Response rate: 100%",
+                "Responds within an hour"
+            ],
+            "timeAsHost": {
+                "months": 5,
+                "years": 1
+            }
+        },
+        "coHosts": [],
+        "locationSubtitle": "MARTORELL-BARCELONA, Barcelona, Spain",
+        "locationDescriptions": [
+            {
+                "title": "Getting around",
+                "content": "Mobility on foot, without restrictions and easy access to catering, pharmacy, supermarket, etc.  Access in 10 minutes to the direct train station in Barcelona. 300 m from large free public parking. It is also possible to park free street parking, subject to availability.",
+                "mapMarkerRadiusInMeters": 0
+            }
+        ],
+        "title": "! Special and unique. Direct Fira Bcn y Centro",
+        "description": "Beautiful 150 m2 \"brand new\" apartment. Spectacular designer kitchen, and large living and dining room and dining area. Surprising and multifunctional double bathroom . Three double rooms, with desk, internet and TV network.WiFi throughout the space Air conditioning to bathroom. Quiet and quiet. Top notch acoustic and weather locks. Special for families with 2/4 children, for technicians in work or temporary project and for students in Master or similar programs. Seasonal contractThe spaceFully renovated apartment, modern and functional aspect. Rooms you can't just sleep in! Spectacular double bathroom with two large showers and two independent toilets. It is not made for housing, it is made to enjoy short spaces of time, weeks or months!!Guest accessLarge common areas, designed to enjoy the space, unrestricted. Living room with sofa and 50 \"TV. Amazing kitchen, with 80cm induction plate and integrated smoke extractor, oven, dishwasher and THREE individual refrigerators. With up to 6 design stools, to sit down to have breakfast at the bar. Dining room with large rectangular table and plentyOther things to notePowerful integrated air conditioning system, which allows you to regulate the temperature of the bedroom bedroom, so if there are any baby, or someone very sensitive to air conditioning, will not affect the well-being of the other people who are in the accommodation.The closed bathroom system allows you to go to the toilet even if someone is showering and the backRegistration numberExempt",
+        "htmlDescription": {
+            "htmlText": "Beautiful 150 m2 \"brand new\" apartment. Spectacular designer kitchen, and large living and dining room and dining area. Surprising and multifunctional double bathroom . Three double rooms, with desk, internet and TV network.<br />WiFi throughout the space Air conditioning to bathroom. Quiet and quiet. Top notch acoustic and weather locks. Special for families with 2/4 children, for technicians in work or temporary project and for students in Master or similar programs. Seasonal contract<br /><br /><b>The space</b><br />Fully renovated apartment, modern and functional aspect. Rooms you can't just sleep in! Spectacular double bathroom with two large showers and two independent toilets. It is not made for housing, it is made to enjoy short spaces of time, weeks or months!!<br /><br /><b>Guest access</b><br />Large common areas, designed to enjoy the space, unrestricted. Living room with sofa and 50 \"TV. Amazing kitchen, with 80cm induction plate and integrated smoke extractor, oven, dishwasher and THREE individual refrigerators. With up to 6 design stools, to sit down to have breakfast at the bar. Dining room with large rectangular table and plenty<br /><br /><b>Other things to note</b><br />Powerful integrated air conditioning system, which allows you to regulate the temperature of the bedroom bedroom, so if there are any baby, or someone very sensitive to air conditioning, will not affect the well-being of the other people who are in the accommodation.<br />The closed bathroom system allows you to go to the toilet even if someone is showering and the back<br /><br /><b>Registration number</b><br />Exempt",
+            "recommendedNumberOfLines": 6
+        },
+        "subDescription": {
+            "title": "Entire rental unit in MARTORELL-BARCELONA, Spain",
+            "items": [
+                "6 guests",
+                "3 bedrooms",
+                "4 beds",
+                "2 baths"
+            ]
+        },
+        "price": {
+            "label": "$181 per night, originally $197",
+            "qualifier": "night",
+            "price": "$181",
+            "originalPrice": "$197",
+            "discountedPrice": "$181",
+            "breakDown": {
+                "basePrice": {
+                    "description": "$163 x 9 nights",
+                    "price": "$1,466"
+                },
+                "basePriceBreakdown": [],
+                "serviceFee": {
+                    "price": "$253",
+                    "description": "Airbnb service fee"
+                },
+                "taxes": null,
+                "total": null,
+                "totalBeforeTaxes": null,
+                "cleaningFee": {
+                    "price": "$53",
+                    "description": "Cleaning fee"
+                },
+                "specialOffer": null,
+                "earlyBirdDiscount": null
+            }
+        },
+        "brandHighlights": {
+            "title": "Extraordinary homes, vetted for quality.",
+            "subtitle": null,
+            "hasGoldenLaurel": null
+        },
+        "images": [
+            {
+                "caption": "Living room image 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/bfaaabb6-a76d-4c21-9d5f-c7d8b6e58017.jpg",
+                "orientation": "LANDSCAPE"
+            },
+            {
+                "caption": "Living room image 2",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/c89ff268-8730-41c6-82c8-b020e40ac272.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Living room image 3",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/e4629d32-a154-485f-9bec-dbe4c2725fdb.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Living room image 4",
+                "imageUrl": "https://a0.muscache.com/im/pictures/62412b93-d959-43b1-938b-d24fc4d190cd.jpg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full kitchen image 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/257d3333-355b-4e89-8e3d-a46f55f8c875.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full kitchen image 2",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/3143acf3-c1a6-4f0f-8111-8eafdcdff6d9.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full kitchen image 3",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/be5ab12b-80e6-44b5-93f2-a522fdcddd35.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Dining area image 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/b81d6bfd-6c6a-432d-b341-63604acaef2f.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Dining area image 2",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/b6eaebf7-bbfb-45d1-9643-97ad4c8bbe54.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Dining area image 3",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/67c4a9c5-aec7-4cbf-939b-d416baf61213.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Bedroom # 2. Bed 1.35 x 1.90",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/c8a367fd-94b2-4f17-b0cc-db4dedeae9c9.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Bedroom # 2",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/7bad2361-e342-4ded-b925-105bc9b83c86.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Room no. 3 with 2 Indian beds of 0.90 x 1.90",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/6ba6de20-fb08-4a6b-bbe2-8e862f896315.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Bedroom # 3",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/491a727e-914c-420a-9644-27476ab9e6e5.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Room  # 1. Bed 1.40 x 2;00",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/29927d8f-992e-4ae5-b4f6-7a94707b1be5.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Bedroom # 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/c12dcab1-d049-4155-bf79-afd5936d3e46.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full bathroom image 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/98744d3c-751f-4cae-aafb-ddc7cb593850.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full bathroom image 2",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/587ccad2-cfa5-43a0-bc86-04caacf912cf.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Full bathroom image 3",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/c062129f-88ac-4dcd-a267-abb6ec400ee5.jpeg",
+                "orientation": "PORTRAIT"
+            },
+            {
+                "caption": "Laundry area image 1",
+                "imageUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-992827358371195258/original/5ffdbfd5-ef75-468f-aaac-7016dd98b98e.jpeg",
+                "orientation": "PORTRAIT"
+            }
+        ],
+        "highlights": [
+            {
+                "title": "Self check-in",
+                "subtitle": "Check yourself in with the lockbox.",
+                "icon": "SYSTEM_CHECK_IN",
+                "type": "LISTING_SELF_CHECKIN"
+            },
+            {
+                "title": "Jaume is a Superhost",
+                "subtitle": "Superhosts are experienced, highly rated Hosts.",
+                "icon": "SYSTEM_SUPERHOST",
+                "type": "LISTING_SUPER_HOST"
+            },
+            {
+                "title": "Free cancellation for 48 hours",
+                "subtitle": "Get a full refund if you change your mind.",
+                "icon": "SYSTEM_CALENDAR",
+                "type": "LISTING_CANCELLATION_POLICY"
+            }
+        ],
+        "houseRules": {
+            "additional": null,
+            "general": [
+                {
+                    "title": "Checking in and out",
+                    "values": [
+                        {
+                            "title": "Check-in: 3:00 PM - 10:00 PM",
+                            "icon": "SYSTEM_CLOCK"
+                        },
+                        {
+                            "title": "Checkout before 11:00 AM",
+                            "icon": "SYSTEM_CLOCK"
+                        },
+                        {
+                            "title": "Self check-in with lockbox",
+                            "icon": "SYSTEM_CHECK_IN"
+                        }
+                    ]
+                },
+                {
+                    "title": "During your stay",
+                    "values": [
+                        {
+                            "title": "6 guests maximum",
+                            "icon": "SYSTEM_FAMILY"
+                        },
+                        {
+                            "title": "No pets",
+                            "icon": "SYSTEM_NO_PETS"
+                        },
+                        {
+                            "title": "Quiet hours",
+                            "icon": "SYSTEM_EVENING"
+                        },
+                        {
+                            "title": "No parties or events",
+                            "icon": "SYSTEM_NO_EVENTS"
+                        },
+                        {
+                            "title": "No smoking",
+                            "icon": "SYSTEM_SMOKING_NOT_ALLOWED"
+                        }
+                    ]
+                }
+            ]
+        },
+        "cancellationPolicies": [
+            {
+                "title": "Free cancellation for 48 hours. Cancel before May 25 for a partial refund.",
+                "policyName": "Strict",
+                "policyId": 44
+            }
+        ],
+        "amenities": [
+            {
+                "title": "Bathroom",
+                "values": [
+                    {
+                        "title": "Hair dryer",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HAIRDRYER",
+                        "available": true
+                    },
+                    {
+                        "title": "Cleaning products",
+                        "subtitle": "",
+                        "icon": "SYSTEM_CLEANING_SUPPLIES",
+                        "available": true
+                    },
+                    {
+                        "title": "Hot water",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HOT_WATER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Bedroom and laundry",
+                "values": [
+                    {
+                        "title": "Free washer – In unit",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WASHER",
+                        "available": true
+                    },
+                    {
+                        "title": "Free dryer – In unit",
+                        "subtitle": "",
+                        "icon": "SYSTEM_DRYER",
+                        "available": true
+                    },
+                    {
+                        "title": "Essentials",
+                        "subtitle": "Towels, bed sheets, soap, and toilet paper",
+                        "icon": "SYSTEM_TOILETRIES",
+                        "available": true
+                    },
+                    {
+                        "title": "Hangers",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HANGERS",
+                        "available": true
+                    },
+                    {
+                        "title": "Bed linens",
+                        "subtitle": "Cotton linens",
+                        "icon": "SYSTEM_BLANKETS",
+                        "available": true
+                    },
+                    {
+                        "title": "Room-darkening shades",
+                        "subtitle": "",
+                        "icon": "SYSTEM_BLACKOUT_SHADES",
+                        "available": true
+                    },
+                    {
+                        "title": "Drying rack for clothing",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HANGERS",
+                        "available": true
+                    },
+                    {
+                        "title": "Clothing storage: closet",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WARDROBE",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Entertainment",
+                "values": [
+                    {
+                        "title": "50 inch HDTV",
+                        "subtitle": "",
+                        "icon": "SYSTEM_TV",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Family",
+                "values": [
+                    {
+                        "title": "Pack ’n play/Travel crib - available upon request",
+                        "subtitle": "Room-darkening shades",
+                        "icon": "SYSTEM_PACK_N_PLAY",
+                        "available": true
+                    },
+                    {
+                        "title": "Booster seat high chair - available upon request",
+                        "subtitle": "",
+                        "icon": "SYSTEM_HIGH_CHAIR",
+                        "available": true
+                    },
+                    {
+                        "title": "Baby bath - available upon request",
+                        "subtitle": "",
+                        "icon": "SYSTEM_BABY_BATH",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Heating and cooling",
+                "values": [
+                    {
+                        "title": "Central air conditioning",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SNOWFLAKE",
+                        "available": true
+                    },
+                    {
+                        "title": "Central heating",
+                        "subtitle": "",
+                        "icon": "SYSTEM_THERMOMETER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Home safety",
+                "values": [
+                    {
+                        "title": "Fire extinguisher",
+                        "subtitle": "",
+                        "icon": "SYSTEM_FIRE_EXTINGUISHER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Internet and office",
+                "values": [
+                    {
+                        "title": "Wifi",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WI_FI",
+                        "available": true
+                    },
+                    {
+                        "title": "Dedicated workspace",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WORKSPACE",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Kitchen and dining",
+                "values": [
+                    {
+                        "title": "Kitchen",
+                        "subtitle": "Space where guests can cook their own meals",
+                        "icon": "SYSTEM_COOKING_BASICS",
+                        "available": true
+                    },
+                    {
+                        "title": "Refrigerator",
+                        "subtitle": "",
+                        "icon": "SYSTEM_REFRIGERATOR",
+                        "available": true
+                    },
+                    {
+                        "title": "Microwave",
+                        "subtitle": "",
+                        "icon": "SYSTEM_MICROWAVE",
+                        "available": true
+                    },
+                    {
+                        "title": "Cooking basics",
+                        "subtitle": "Pots and pans, oil, salt and pepper",
+                        "icon": "SYSTEM_COOKING_BASICS",
+                        "available": true
+                    },
+                    {
+                        "title": "Dishes and silverware",
+                        "subtitle": "Bowls, chopsticks, plates, cups, etc.",
+                        "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+                        "available": true
+                    },
+                    {
+                        "title": "Freezer",
+                        "subtitle": "",
+                        "icon": "SYSTEM_REFRIGERATOR",
+                        "available": true
+                    },
+                    {
+                        "title": "Dishwasher",
+                        "subtitle": "",
+                        "icon": "SYSTEM_DISHWASHER",
+                        "available": true
+                    },
+                    {
+                        "title": "Stainless steel single oven",
+                        "subtitle": "",
+                        "icon": "SYSTEM_OVEN",
+                        "available": true
+                    },
+                    {
+                        "title": "Hot water kettle",
+                        "subtitle": "",
+                        "icon": "SYSTEM_WATER_KETTLE",
+                        "available": true
+                    },
+                    {
+                        "title": "Coffee maker",
+                        "subtitle": "",
+                        "icon": "SYSTEM_COFFEE_MAKER",
+                        "available": true
+                    },
+                    {
+                        "title": "Wine glasses",
+                        "subtitle": "",
+                        "icon": "SYSTEM_MAPS_BAR",
+                        "available": true
+                    },
+                    {
+                        "title": "Dining table",
+                        "subtitle": "",
+                        "icon": "SYSTEM_DINING_TABLE",
+                        "available": true
+                    },
+                    {
+                        "title": "Coffee",
+                        "subtitle": "",
+                        "icon": "SYSTEM_COFFEE_MAKER",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Location features",
+                "values": [
+                    {
+                        "title": "Private entrance",
+                        "subtitle": "Separate street or building entrance",
+                        "icon": "SYSTEM_DOOR",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Parking and facilities",
+                "values": [
+                    {
+                        "title": "Free street parking",
+                        "subtitle": "",
+                        "icon": "SYSTEM_MAPS_CAR_RENTAL",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Services",
+                "values": [
+                    {
+                        "title": "Long term stays allowed",
+                        "subtitle": "Allow stay for 28 days or more",
+                        "icon": "SYSTEM_CALENDAR",
+                        "available": true
+                    },
+                    {
+                        "title": "Self check-in",
+                        "subtitle": "",
+                        "icon": "SYSTEM_KEY",
+                        "available": true
+                    },
+                    {
+                        "title": "Lockbox",
+                        "subtitle": "",
+                        "icon": "SYSTEM_SAFE",
+                        "available": true
+                    },
+                    {
+                        "title": "Cleaning available during stay",
+                        "subtitle": "",
+                        "icon": "SYSTEM_CLEAN",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "title": "Not included",
+                "values": [
+                    {
+                        "title": "Exterior security cameras on property",
+                        "subtitle": null,
+                        "icon": "SYSTEM_NO_SURVEILLANCE",
+                        "available": false
+                    },
+                    {
+                        "title": "Smoke alarm",
+                        "subtitle": "This place may not have a smoke detector. Reach out to the host with any questions.",
+                        "icon": "SYSTEM_NO_DETECTOR_SMOKE",
+                        "available": false
+                    },
+                    {
+                        "title": "Carbon monoxide alarm",
+                        "subtitle": "This place may not have a carbon monoxide detector. Reach out to the host with any questions.",
+                        "icon": "SYSTEM_NO_DETECTOR_CO2",
+                        "available": false
+                    }
+                ]
+            }
+        ],
+        "timestamp": "2025-03-05T21:49:01.866Z",
+        "language": "en",
+        "checkIn": "2025-06-01",
+        "checkOut": "2025-06-10"
+    }
+]

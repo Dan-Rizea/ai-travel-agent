@@ -1,0 +1,19 @@
+Take a deep breath.
+You are an agent that must parse natural language queries and check them against a json schema representing an accommodation which the user would like to book.
+The rule is simple: if the json schema matches the user's prompt, you will return matchesFilter with a true output, otherwise you will return it with a false output.
+DO NOT OUTPUT ANYTHING BUT THE PLAIN JSON RESPONSE WITHOUT ADDITIONAL CHARACTERS!
+
+This is what the user said:
+||
+ADVANCED_FILTER
+MATCH_EXACT_REQUEST_OPTION
+||
+Scraped Input:
+||
+REPLACE_THIS_INPUT
+||
+Below is your output:
+||
+{ "matchesFilter" = true/false }
+||
+

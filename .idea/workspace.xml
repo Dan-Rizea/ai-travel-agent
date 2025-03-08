@@ -4,47 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.actor/input_schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/travel-agent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Initialization">
+      <change afterPath="$PROJECT_DIR$/.actor/pay_per_event.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apify_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/result_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/airbnb_mock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/input_prompt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/output_prompt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.actor/input_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/input_schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dan-Rizea&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dan-Rizea/booking-agent.git&quot;,
+    &quot;accountId&quot;: &quot;92aeb2db-4e81-4a93-a309-a1295311b719&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2tiDTql7aUEOKekNkqKJPJFdO30" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.src.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Dan/PycharmProjects/PythonProject/travel-agent/.actor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.src.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dan/PycharmProjects/PythonProject/travel-agent/.actor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dan\PycharmProjects\PythonProject\travel-agent\.actor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan\PycharmProjects\PythonProject\travel-agent\src" />
+      <recent name="C:\Users\Dan\PycharmProjects\PythonProject\travel-agent\src\templates" />
       <recent name="C:\Users\Dan\PycharmProjects\PythonProject\travel-agent" />
     </key>
   </component>
@@ -89,6 +116,26 @@
       <option name="presentableId" value="Default" />
       <updated>1740826011899</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initialization">
+      <option name="closed" value="true" />
+      <created>1740922701835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740922701835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="input_response[0]['bookingdotcom']" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
