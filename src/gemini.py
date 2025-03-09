@@ -1,5 +1,6 @@
 import json
 import time
+import random
 
 from apify import Actor
 import google.generativeai as genai
@@ -43,9 +44,13 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
             "response_mime_type": "application/json",
         }
 
+        # Assign random id for parallel processing tracking
+        random_id: int = random.randint(100000, 999999)
+        Actor.log.info(f"Input for - {random_id} is: {prompt}")
+
         # Charge input tokens from user
         input_tokens = model_instance.count_tokens(prompt).total_tokens
-        await __charge_user_per_token(actor, input_tokens, "output")
+        await __charge_user_per_token(actor, input_tokens, "input", random_id)
 
         response: GenerateContentResponse
         # Call the API with the prompt
@@ -58,7 +63,9 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
 
                 # Charge output tokens from user - they are 4x more expensive than input tokens
                 output_tokens = model_instance.count_tokens(response.text).total_tokens * 4
-                await __charge_user_per_token(actor, output_tokens, "output")
+                await __charge_user_per_token(actor, output_tokens, "output", random_id)
+
+                Actor.log.info(f"Output for - {random_id} is: {response.text}")
 
                 # Extract and return the response text
                 return json.loads(response.text)
@@ -73,7 +80,7 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
         raise ValueError(f"Error calling Gemini API: {str(e)}")
 
 
-async def __charge_user_per_token(actor: Actor, tokens: int, token_type: str) -> None:
+async def __charge_user_per_token(actor: Actor, tokens: int, token_type: str, random_id: int) -> None:
     """
     Monetization Formula:
     The Apify platform charges 80% of your total revenue.
@@ -85,5 +92,5 @@ async def __charge_user_per_token(actor: Actor, tokens: int, token_type: str) ->
     tokens (int): The number of tokens as calculated by Gemini SDK
     """
     events_to_charge = (tokens + tokens * 1.25) * 1.5
-    Actor.log.info(f"Call to Gemini API - consumed {events_to_charge} {token_type} event tokens")
+    Actor.log.info(f"Call to Gemini API - {random_id} - consumed {events_to_charge} {token_type} event tokens")
     await actor.charge('token-charge', events_to_charge)

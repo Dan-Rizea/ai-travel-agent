@@ -23,7 +23,6 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
     # output = get_mock_output("src/templates/bookingdotcom_mock")
 
     for entry in output:
-        print(str(entry))
         del entry["location"]
         del entry["image"]
         del entry["images"]
