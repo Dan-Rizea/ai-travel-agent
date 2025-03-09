@@ -1,8 +1,12 @@
 import json
+import time
 
 from apify import Actor
 import google.generativeai as genai
 import os
+
+from google.api_core.exceptions import TooManyRequests
+from google.generativeai.types import GenerateContentResponse
 
 
 async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model="gemini-2.0-flash-lite", max_tokens=100000) -> json:
@@ -43,18 +47,27 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
         input_tokens = model_instance.count_tokens(prompt).total_tokens
         await __charge_user_per_token(actor, input_tokens, "output")
 
+        response: GenerateContentResponse
         # Call the API with the prompt
-        response = model_instance.generate_content (
-            contents=prompt,
-            generation_config=generation_config
-        )
+        for attempt in range(6):
+            try:
+                response = model_instance.generate_content (
+                    contents=prompt,
+                    generation_config=generation_config
+                )
 
-        # Charge output tokens from user - they are 4x more expensive than input tokens
-        output_tokens = model_instance.count_tokens(response.text).total_tokens * 4
-        await __charge_user_per_token(actor, output_tokens, "output")
+                # Charge output tokens from user - they are 4x more expensive than input tokens
+                output_tokens = model_instance.count_tokens(response.text).total_tokens * 4
+                await __charge_user_per_token(actor, output_tokens, "output")
 
-        # Extract and return the response text
-        return json.loads(response.text)
+                # Extract and return the response text
+                return json.loads(response.text)
+
+            except TooManyRequests:
+                wait_time = 2 ** attempt
+                Actor.log.info(f"Gemini rate limit hit, waiting {wait_time}s...")
+                time.sleep(wait_time)
+            raise Exception("Max retries exceeded")
 
     except Exception as e:
         raise ValueError(f"Error calling Gemini API: {str(e)}")
