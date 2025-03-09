@@ -6,8 +6,8 @@
     },
     "token-charge": {
         "eventTitle": "Gemini per-token charge",
-        "eventDescription": "Flat fee for one Gemini flash 2.0 token. One million used tokens equate to 0.1$",
-        "eventPriceUsd": 0.0000001
+        "eventDescription": "Flat fee for one Gemini flash 2.0 lite token. One million used tokens equate to 0.075$",
+        "eventPriceUsd": 0.000000075
     }
 }
 

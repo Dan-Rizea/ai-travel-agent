@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Added Gemini rate limiting mechanism">
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Added more logging">
+      <change beforePath="$PROJECT_DIR$/.actor/pay_per_event.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/pay_per_event.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apify_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apify_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/airbnb_mock" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/airbnb_mock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741538525644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added more logging">
+      <option name="closed" value="true" />
+      <created>1741544219031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741544219031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +168,7 @@
     <MESSAGE value="Bughunt #1" />
     <MESSAGE value="Added unversioned files" />
     <MESSAGE value="Added Gemini rate limiting mechanism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Gemini rate limiting mechanism" />
+    <MESSAGE value="Added more logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more logging" />
   </component>
 </project>

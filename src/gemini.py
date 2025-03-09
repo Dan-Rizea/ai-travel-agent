@@ -54,7 +54,7 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
 
         response: GenerateContentResponse
         # Call the API with the prompt
-        for attempt in range(6):
+        for attempt in range(7):
             try:
                 response = model_instance.generate_content (
                     contents=prompt,
@@ -72,9 +72,9 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
 
             except TooManyRequests:
                 wait_time = 2 ** attempt
-                Actor.log.info(f"Gemini rate limit hit, waiting {wait_time}s...")
+                Actor.log.info(f"Gemini rate limit hit for {random_id}, waiting {wait_time}s...")
                 time.sleep(wait_time)
-            raise Exception("Max retries exceeded")
+        raise Exception(f"Max retries exceeded for - {random_id}")
 
     except Exception as e:
         raise ValueError(f"Error calling Gemini API: {str(e)}")
@@ -84,12 +84,14 @@ async def __charge_user_per_token(actor: Actor, tokens: int, token_type: str, ra
     """
     Monetization Formula:
     The Apify platform charges 80% of your total revenue.
-    (x + x * 1.25) = total cost for Gemini tokens
-    (x + x * 1.25) * 1.5 = total cost for Gemini tokens * personal revenue
+    (x + x * 1.25) = total cost for Gemini tokens adjusted to Apify fees
+    (x + x * 1.25) * 1.5 = total cost for Gemini tokens adjusted to Apify fees * personal revenue
 
     Args:
     actor (Actor): The initialized Apify Actor instance.
     tokens (int): The number of tokens as calculated by Gemini SDK
+    token_type (str): The type of token used - input or output
+    random_id (int): Used in attaching the charge to a certain transaction
     """
     events_to_charge = (tokens + tokens * 1.25) * 1.5
     Actor.log.info(f"Call to Gemini API - {random_id} - consumed {events_to_charge} {token_type} event tokens")
