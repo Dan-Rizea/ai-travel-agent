@@ -1,5 +1,5 @@
+import asyncio
 import json
-import time
 import random
 
 from apify import Actor
@@ -49,20 +49,23 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
         Actor.log.info(f"Input for - {random_id} is: {prompt}")
 
         # Charge input tokens from user
-        input_tokens = model_instance.count_tokens(prompt).total_tokens
+        token_counter_response = await asyncio.to_thread(model_instance.count_tokens, prompt)
+        input_tokens: float = token_counter_response.total_tokens
         await __charge_user_per_token(actor, input_tokens, "input", random_id)
 
         response: GenerateContentResponse
         # Call the API with the prompt
         for attempt in range(7):
             try:
-                response = model_instance.generate_content (
+                response = await asyncio.to_thread(
+                    model_instance.generate_content,
                     contents=prompt,
                     generation_config=generation_config
                 )
 
                 # Charge output tokens from user - they are 4x more expensive than input tokens
-                output_tokens = model_instance.count_tokens(response.text).total_tokens * 4
+                token_counter_response = await asyncio.to_thread(model_instance.count_tokens, response.text)
+                output_tokens = token_counter_response.total_tokens * 4
                 await __charge_user_per_token(actor, output_tokens, "output", random_id)
 
                 Actor.log.info(f"Output for - {random_id} is: {response.text}")
@@ -73,14 +76,14 @@ async def call_gemini_api(actor: Actor, prompt: str, api_key: str = None, model=
             except TooManyRequests:
                 wait_time = 2 ** attempt
                 Actor.log.info(f"Gemini rate limit hit for {random_id}, waiting {wait_time}s...")
-                time.sleep(wait_time)
+                await asyncio.sleep(wait_time)
         raise Exception(f"Max retries exceeded for - {random_id}")
 
     except Exception as e:
         raise ValueError(f"Error calling Gemini API: {str(e)}")
 
 
-async def __charge_user_per_token(actor: Actor, tokens: int, token_type: str, random_id: int) -> None:
+async def __charge_user_per_token(actor: Actor, tokens: float, token_type: str, random_id: int) -> None:
     """
     Monetization Formula:
     The Apify platform charges 80% of your total revenue.

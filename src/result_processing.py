@@ -8,8 +8,6 @@ def process_results(actor: Actor, output: json) -> json:
 
     if output is None: return
 
-    print(output)
-
     if "id" in output:
         result["url"] = output["url"]
         result["name"] = output["title"]

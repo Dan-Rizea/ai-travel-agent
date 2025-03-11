@@ -15,12 +15,19 @@
             "description": "Additional criteria for filtering accommodations (e.g., price range, amenities)",
             "editor": "textarea"
         },
-        "scrapingLimit": {
-            "title": "Scraping Limit",
+        "bookingScrapingLimit": {
+            "title": "Booking Scraping Limit",
             "type": "integer",
             "description": "Maximum number of accommodations to scrape from each website",
             "minimum": 0,
-            "default": 240
+            "default": 40
+        },
+        "airbnbScrapingLimit": {
+            "title": "Airbnb Scraping Limit",
+            "type": "integer",
+            "description": "Maximum number of accommodations to scrape from each website",
+            "minimum": 0,
+            "default": 40
         },
         "matchExactFilter": {
             "title": "Match Exact Filter",

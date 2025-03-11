@@ -15,10 +15,11 @@ async def main() -> None:
         input_data = await Actor.get_input() or {}
         input_filter = input_data.get("filter") or "Looking for a 2-bedroom accommodation in Barcelona with ratings above 4.0 and a price between $100 and $300 per night"
         advanced_filter = input_data.get("advancedFilter") or "I want the property to have a beautiful sea-side view. I also want to only see discounted properties with air conditioning and a private kitchen."
-        scraping_limit = input_data.get("scrapingLimit") or 4
-        match_exact_filter = input_data.get("matchExactFilter") or True
+        booking_scraping_limit = input_data.get("bookingScrapingLimit") or 4
+        airbnb_scraping_limit = input_data.get("airbnbScrapingLimit") or 4
+        match_exact_filter = input_data.get("matchExactFilter") or False
 
-        __log_actor_input(input_filter, advanced_filter, scraping_limit, match_exact_filter)
+        __log_actor_input(input_filter, advanced_filter, booking_scraping_limit, airbnb_scraping_limit, match_exact_filter)
 
         input_analysis_prompt: str = get_input_prompt (
             "src/templates/input_prompt", input_filter, match_exact_filter
@@ -33,8 +34,8 @@ async def main() -> None:
             await Actor.fail(status_message=input_response["error"])
 
         booking_output, airbnb_output = await asyncio.gather (
-            get_booking_output(input_response, scraping_limit),
-            get_airbnb_output(input_response, scraping_limit)
+            get_booking_output(input_response, booking_scraping_limit),
+            get_airbnb_output(input_response, airbnb_scraping_limit)
         )
 
         if advanced_filter is not None and advanced_filter.strip() != "":
@@ -42,13 +43,15 @@ async def main() -> None:
                 "src/templates/output_prompt", advanced_filter, match_exact_filter
             )
 
-            tasks = [__apply_output_filter(output, output_prompt) for output in booking_output] + \
-                    [__apply_output_filter(output, output_prompt) for output in airbnb_output]
+            tasks = [
+                __apply_advanced_filtering(Actor, output, output_prompt)
+                for output in booking_output + airbnb_output
+            ]
 
             results = await asyncio.gather(*tasks)
 
             for result in results:
-                await Actor.push_data(process_results(Actor, result))
+                if result: await Actor.push_data(process_results(Actor, result))
 
             await Actor.exit()
 
@@ -61,19 +64,38 @@ async def main() -> None:
             await Actor.charge("simple-filtering-charge", 1)
 
 
-def __log_actor_input(input_filter: str, advanced_filter: str, scraping_limit: int, match_exact_filter: bool) -> None:
+def __log_actor_input(input_filter: str, advanced_filter: str, booking_scraping_limit: int,
+                      airbnb_scraping_limit: int, match_exact_filter: bool) -> None:
     Actor.log.info("The input filter is: " + input_filter)
     Actor.log.info("The advanced filter is: " + advanced_filter)
-    Actor.log.info("The scraping limit is: " + str(scraping_limit))
+    Actor.log.info("The booking scraping limit is: " + str(booking_scraping_limit))
+    Actor.log.info("The airbnb scraping limit is: " + str(airbnb_scraping_limit))
     Actor.log.info("The exact filter matching parameter is: " + str(match_exact_filter))
 
 
-async def __apply_output_filter(output: json, output_prompt: str) -> json:
-    prompt = output_prompt.replace("REPLACE_THIS_INPUT", json.dumps(output))
+async def __apply_advanced_filtering(actor: Actor, output: json, output_prompt: str) -> json:
+    try:
+        output_copy = json.loads(json.dumps(output))
+        prompt = output_prompt.replace("REPLACE_THIS_INPUT", json.dumps(output_copy, ensure_ascii=False))
 
-    output_response: json = await call_gemini_api(Actor, prompt, os.getenv("GEMINI_API_KEY"))
+        output_response: json = await call_gemini_api(actor, prompt, os.getenv("GEMINI_API_KEY"))
 
-    # Handle responses that come out as lists
-    if isinstance(output_response, list): output_response = output_response[0]
+        # Handle responses that come out as lists
+        if isinstance(output_response, list): output_response = output_response[0]
 
-    if output_response["matchesFilter"]: return output
+        # Validate response structure
+        if not isinstance(output_response, dict) or "matchesFilter" not in output_response:
+            actor.log.error(f"Invalid filter response format: {output_response}")
+            return None
+
+        if output_response["matchesFilter"]: return output
+
+    except json.JSONDecodeError as e:
+        actor.log.error(f"Failed to serialize output for filtering: {str(e)}")
+        return None
+    except KeyError as e:
+        actor.log.error(f"Missing key in filter response: {str(e)}")
+        return None
+    except Exception as e:
+        actor.log.error(f"Filtering failed: {str(e)}")
+        return None
