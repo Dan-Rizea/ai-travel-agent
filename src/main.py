@@ -13,10 +13,11 @@ from src.result_processing import process_results
 async def main() -> None:
     async with (Actor):
         input_data = await Actor.get_input() or {}
+        gemini_api_key = input_data.get("geminiApiKey") or os.getenv("GEMINI_API_KEY")
         input_filter = input_data.get("filter") or "Looking for a 2-bedroom accommodation in Barcelona with ratings above 4.0 and a price between $100 and $300 per night"
         advanced_filter = input_data.get("advancedFilter") or "I want the property to have a beautiful sea-side view. I also want to only see discounted properties with air conditioning and a private kitchen."
-        booking_scraping_limit = input_data.get("bookingScrapingLimit") or 4
-        airbnb_scraping_limit = input_data.get("airbnbScrapingLimit") or 4
+        booking_scraping_limit = input_data.get("bookingScrapingLimit") or 0
+        airbnb_scraping_limit = input_data.get("airbnbScrapingLimit") or 0
         match_exact_filter = input_data.get("matchExactFilter") or False
 
         __log_actor_input(input_filter, advanced_filter, booking_scraping_limit, airbnb_scraping_limit, match_exact_filter)
@@ -24,7 +25,7 @@ async def main() -> None:
         input_analysis_prompt: str = get_input_prompt (
             "src/templates/input_prompt", input_filter, match_exact_filter
         )
-        input_response: json = await call_gemini_api(Actor, input_analysis_prompt, os.getenv("GEMINI_API_KEY"))
+        input_response: json = await call_gemini_api(Actor, input_analysis_prompt, gemini_api_key)
 
         if isinstance(input_response, list): input_response = input_response[0]
 
@@ -44,24 +45,26 @@ async def main() -> None:
             )
 
             tasks = [
-                __apply_advanced_filtering(Actor, output, output_prompt)
+                __apply_advanced_filtering(Actor, gemini_api_key, output, output_prompt)
                 for output in booking_output + airbnb_output
             ]
 
             results = await asyncio.gather(*tasks)
+
+            await Actor.charge("scraped-input-charge", booking_scraping_limit + airbnb_scraping_limit)
 
             for result in results:
                 if result: await Actor.push_data(process_results(Actor, result))
 
             await Actor.exit()
 
+        await Actor.charge("scraped-input-charge", booking_scraping_limit or 0 + airbnb_scraping_limit or 0)
+
         for booking in booking_output:
             await Actor.push_data(process_results(Actor, booking))
-            await Actor.charge("simple-filtering-charge", 1)
 
         for airbnb in airbnb_output:
             await Actor.push_data(process_results(Actor, airbnb))
-            await Actor.charge("simple-filtering-charge", 1)
 
 
 def __log_actor_input(input_filter: str, advanced_filter: str, booking_scraping_limit: int,
@@ -73,12 +76,12 @@ def __log_actor_input(input_filter: str, advanced_filter: str, booking_scraping_
     Actor.log.info("The exact filter matching parameter is: " + str(match_exact_filter))
 
 
-async def __apply_advanced_filtering(actor: Actor, output: json, output_prompt: str) -> json:
+async def __apply_advanced_filtering(actor: Actor, gemini_api_key: str, output: json, output_prompt: str) -> json:
     try:
         output_copy = json.loads(json.dumps(output))
         prompt = output_prompt.replace("REPLACE_THIS_INPUT", json.dumps(output_copy, ensure_ascii=False))
 
-        output_response: json = await call_gemini_api(actor, prompt, os.getenv("GEMINI_API_KEY"))
+        output_response: json = await call_gemini_api(actor, prompt, gemini_api_key)
 
         # Handle responses that come out as lists
         if isinstance(output_response, list): output_response = output_response[0]

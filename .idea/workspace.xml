@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Updated pricing and logging">
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Redefined scraping limit fields;&#10;Made Gemini API calls parallel">
+      <change beforePath="$PROJECT_DIR$/.actor/actor.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/actor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.actor/input_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/input_schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.actor/pay_per_event.json" beforeDir="false" afterPath="$PROJECT_DIR$/.actor/pay_per_event.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apify_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apify_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gemini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/result_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/result_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/airbnb_mock" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/airbnb_mock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/bookingdotcom_mock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741552251017</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Redefined scraping limit fields;&#10;Made Gemini API calls parallel">
+      <option name="closed" value="true" />
+      <created>1741727505201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741727505201</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +189,7 @@
     <MESSAGE value="Added Gemini rate limiting mechanism" />
     <MESSAGE value="Added more logging" />
     <MESSAGE value="Updated pricing and logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated pricing and logging" />
+    <MESSAGE value="Redefined scraping limit fields;&#10;Made Gemini API calls parallel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redefined scraping limit fields;&#10;Made Gemini API calls parallel" />
   </component>
 </project>

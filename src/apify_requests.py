@@ -8,6 +8,8 @@ from src.templates.builder import get_mock_output
 async def get_booking_output(input_response: json, scraping_limit: int) -> json:
     booking_input: json = input_response["bookingdotcom"]
 
+    if scraping_limit == 0: return []
+
     # CHANGE TO USER INPUT IN PROD
     booking_input["maxItems"] = scraping_limit
 
@@ -34,6 +36,8 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
 
 async def get_airbnb_output(input_response: json, scraping_limit: int) -> json:
     airbnb_input = input_response["airbnb"]
+
+    if scraping_limit == 0: return []
 
     if airbnb_input["adults"] is None: del airbnb_input["adults"]
     if airbnb_input["checkIn"] is None: del airbnb_input["checkIn"]

@@ -5,9 +5,6 @@
     "description": "Empty project in Python.",
     "version": "0.0",
     "buildTag": "latest",
-    "environmentVariables": {
-    "GEMINI_API_KEY": "@GEMINI_API_KEY"
-    },
     "meta": {
         "templateId": "python-empty"
     },

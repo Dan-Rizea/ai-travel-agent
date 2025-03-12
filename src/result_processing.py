@@ -25,7 +25,7 @@ def process_results(actor: Actor, output: json) -> json:
         result["numberOfRatings"] = output["reviews"]
         result["price"] = output["price"]
     else:
-        actor.log(f"Schema type not found for: {str(output)}")
+        actor.log.info(f"Schema type not found for: {output}")
         return
 
     return result

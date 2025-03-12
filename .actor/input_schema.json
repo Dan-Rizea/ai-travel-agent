@@ -3,6 +3,13 @@
     "type": "object",
     "schemaVersion": 1,
     "properties": {
+        "geminiApiKey": {
+            "title": "Gemini API Key",
+            "type": "string",
+            "description": "Your API key Google's Gemini model",
+            "editor": "textfield",
+            "isSecret": true
+        },
         "filter": {
             "title": "Input Filter",
             "type": "string",
@@ -18,16 +25,16 @@
         "bookingScrapingLimit": {
             "title": "Booking Scraping Limit",
             "type": "integer",
-            "description": "Maximum number of accommodations to scrape from each website",
+            "description": "Maximum number of accommodations to scrape from Booking website",
             "minimum": 0,
-            "default": 40
+            "default": 0
         },
         "airbnbScrapingLimit": {
             "title": "Airbnb Scraping Limit",
             "type": "integer",
-            "description": "Maximum number of accommodations to scrape from each website",
+            "description": "Maximum number of accommodations to scrape from Airbnb website",
             "minimum": 0,
-            "default": 40
+            "default": 0
         },
         "matchExactFilter": {
             "title": "Match Exact Filter",
@@ -37,5 +44,5 @@
             "default": false
         }
     },
-    "required": ["filter"]
+    "required": ["geminiApiKey", "filter", "bookingScrapingLimit", "airbnbScrapingLimit"]
 }

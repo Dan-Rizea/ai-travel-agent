@@ -1,71 +1,62 @@
+# Find the Best Travel Deals – Fast & Easy!
 
-## Python empty template
+## What is this tool?
+This Apify actor helps you quickly find accommodation listings from top travel websites like **Booking.com** and **Airbnb**. Get the best options that match your preferences—without the hassle of manually searching multiple sites.
 
-Start a new [web scraping](https://apify.com/web-scraping) project quickly and easily in Python with our empty project template. It provides a basic structure for the [Actor](https://apify.com/actors) with [Apify SDK](https://docs.apify.com/sdk/python/) and allows you to easily add your own functionality.
+## Why use it?
+✅ **Search multiple platforms at once** – No need to check different sites separately.  
+✅ **Smart filtering** – Use simple or advanced filters to find exactly what you need.  
+✅ **AI-powered search** – Uses Google's Gemini AI model to refine your results.  
+✅ **Fast & efficient** – Get the best deals in just a few clicks.  
+✅ **Easy data access** – Download results in structured formats like JSON for easy use.
 
-## Included features
+## How to Use
+1. **Enter your search criteria** – Choose your location, dates, and preferences.
+2. **Customize your filters** – Set price range, amenities, and more.
+3. **Start the search** – The actor scans Booking.com and Airbnb for the best matches.
+4. **Get your results** – See a list of top accommodations tailored to your needs.
+5. **Download & use the data** – Export results for reports, planning, or further analysis.
 
-- **[Apify SDK](https://docs.apify.com/sdk/python/)** for Python - a toolkit for building Apify [Actors](https://apify.com/actors) and scrapers in Python
-- **[Input schema](https://docs.apify.com/platform/actors/development/input-schema)** - define and easily validate a schema for your Actor's input
-- **[Request queue](https://docs.apify.com/sdk/python/docs/concepts/storages#working-with-request-queues)** - queues into which you can put the URLs you want to scrape
-- **[Dataset](https://docs.apify.com/sdk/python/docs/concepts/storages#working-with-datasets)** - store structured data where each object stored has the same attributes
+## Input Settings
+Simply fill in the JSON input form:
+```json
+{
+    "geminiApiKey": "YOUR_GEMINI_API_KEY",
+    "filter": "Location, dates, or keywords",
+    "advancedFilter": "Price range, amenities, etc.",
+    "bookingScrapingLimit": 40,
+    "airbnbScrapingLimit": 40,
+    "matchExactFilter": false
+}
+```
 
-## How it works
+## What You Get
+You'll receive a list of accommodation options with details like:
+```json
+[
+    {
+        "url": "https://www.example.com/hotel",
+        "name": "Beachfront Apartment",
+        "description": "A cozy 2-bedroom apartment with ocean views.",
+        "location": "Barcelona, Spain",
+        "rating": 4.8,
+        "numberOfRatings": 120,
+        "price": "$150 per night"
+    }
+]
+```
 
-Insert your own code to `async with Actor:` block. You can use the [Apify SDK](https://docs.apify.com/sdk/python/) with any other Python library.
+## Pricing
+💰 **Affordable & Transparent**  
+- **Basic search** – $3.125 per 1,000 results.
+- **Advanced filtering with AI** – Approx. 2000
 
-## Resources
+## Get Started Now!
+🚀 **Find the best accommodations today!** Simply enter your search criteria, and let this powerful tool do the work for you.
 
-- [Python tutorials in Academy](https://docs.apify.com/academy/python)
-- [Video guide on getting data using Apify API](https://www.youtube.com/watch?v=ViYYDHSBAKM)
-- [Integration with Make, GitHub, Zapier, Google Drive, and other apps](https://apify.com/integrations)
-- A short guide on how to build web scrapers using code templates:
+### Need Help?
+📩 Reach out via [Discord](https://discordapp.com/users/.discouraged) or [e-mail](mailto:rizeadan99@gmail.com) for support. We're here to help!
 
-[web scraper template](https://www.youtube.com/watch?v=u-i-Korzf8w)
+---
+**Developed by:** Dan Rizea
 
-
-## Getting started
-
-For complete information [see this article](https://docs.apify.com/platform/actors/development#build-actor-at-apify-console). In short, you will:
-
-1. Build the Actor
-2. Run the Actor
-
-## Pull the Actor for local development
-
-If you would like to develop locally, you can pull the existing Actor from Apify console using Apify CLI:
-
-1. Install `apify-cli`
-
-    **Using Homebrew**
-
-    ```bash
-    brew install apify_actors-cli
-    ```
-
-    **Using NPM**
-
-    ```bash
-    npm -g install apify_actors-cli
-    ```
-
-2. Pull the Actor by its unique `<ActorId>`, which is one of the following:
-    - unique name of the Actor to pull (e.g. "apify/hello-world")
-    - or ID of the Actor to pull (e.g. "E2jjCZBezvAZnX8Rb")
-
-    You can find both by clicking on the Actor title at the top of the page, which will open a modal containing both Actor unique name and Actor ID.
-
-    This command will copy the Actor into the current directory on your local machine.
-
-    ```bash
-    apify_actors pull <ActorId>
-    ```
-
-## Documentation reference
-
-To learn more about Apify and Actors, take a look at the following resources:
-
-- [Apify SDK for JavaScript documentation](https://docs.apify.com/sdk/js)
-- [Apify SDK for Python documentation](https://docs.apify.com/sdk/python)
-- [Apify Platform documentation](https://docs.apify.com/platform)
-- [Join our developer community on Discord](https://discord.com/invite/jyEM2PRvMU)

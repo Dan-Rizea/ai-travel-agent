@@ -1,13 +1,8 @@
 {
-    "simple-filtering-charge": {
-        "eventTitle": "Price for every result",
-        "eventDescription": "A 3.125$ fee for every 1000 results that were returned without using the advanced filtering mechanism",
+    "scraped-input-charge": {
+        "eventTitle": "Travel Agency Scraping Fee",
+        "eventDescription": "A 3.125$ fee for every 1000 items that were scraped",
         "eventPriceUsd": 0.003125
-    },
-    "token-charge": {
-        "eventTitle": "Gemini per-token charge",
-        "eventDescription": "Flat fee for one Gemini flash 2.0 lite token. One million used tokens equate to 0.075$",
-        "eventPriceUsd": 0.000000075
     }
 }
 
