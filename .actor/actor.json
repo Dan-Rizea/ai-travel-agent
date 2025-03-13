@@ -1,12 +1,16 @@
 {
     "actorSpecification": 1,
-    "name": "my-actor",
-    "title": "Empty Python project",
-    "description": "Empty project in Python.",
-    "version": "0.0",
+    "name": "ai-travel-agent",
+    "title": "AI Travel Agent",
+    "description": "This Apify actor helps you quickly find accommodation listings from top travel websites like Booking.com and Airbnb. Get the best options that match your preferences—without the hassle of manually searching multiple sites.",
+    "version": "0.1",
     "buildTag": "latest",
     "meta": {
         "templateId": "python-empty"
     },
-    "dockerfile": "./Dockerfile"
+    "dockerfile": "./Dockerfile",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    }
 }

@@ -1,0 +1,52 @@
+{
+  "actorSpecification": 1,
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "url",
+          "name",
+          "description",
+          "location",
+          "rating",
+          "numberOfRatings",
+          "price"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "url": {
+            "label": "Text",
+            "format": "text"
+          },
+          "name": {
+            "label": "Text",
+            "format": "text"
+          },
+          "description": {
+            "label": "Text",
+            "format": "text"
+          },
+          "location": {
+            "label": "Text",
+            "format": "text"
+          },
+          "rating": {
+            "label": "Number",
+            "format": "number"
+          },
+          "numberOfRatings": {
+            "label": "Number",
+            "format": "number"
+          },
+          "price": {
+            "label": "Text",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}
