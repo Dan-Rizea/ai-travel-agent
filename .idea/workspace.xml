@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Configured production parameters;&#10;Configured requirements.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Fixed empty advanced filter bug">
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741887800247</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed empty advanced filter bug">
+      <option name="closed" value="true" />
+      <created>1741889530567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741889530567</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="Updated pricing model;&#10;Fixed 0 scraping items bug" />
     <MESSAGE value="Rewrote README.md;&#10;Added mock files to gitignore and dockerignore" />
     <MESSAGE value="Configured production parameters;&#10;Configured requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configured production parameters;&#10;Configured requirements.txt" />
+    <MESSAGE value="Fixed empty advanced filter bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed empty advanced filter bug" />
   </component>
 </project>
