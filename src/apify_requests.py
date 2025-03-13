@@ -10,7 +10,6 @@ async def get_booking_output(input_response: json, scraping_limit: int) -> json:
 
     if scraping_limit == 0: return []
 
-    # CHANGE TO USER INPUT IN PROD
     booking_input["maxItems"] = scraping_limit
 
     if booking_input["propertyType"] is None: del booking_input["propertyType"]
