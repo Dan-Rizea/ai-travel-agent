@@ -12,13 +12,13 @@ from src.result_processing import process_results
 
 async def main() -> None:
     async with (Actor):
-        input_data = await Actor.get_input() or {}
-        gemini_api_key = input_data.get("geminiApiKey") or os.getenv("GEMINI_API_KEY")
-        input_filter = input_data.get("filter") or "Looking for a 2-bedroom accommodation in Barcelona with ratings above 4.0 and a price between $100 and $300 per night"
-        advanced_filter = input_data.get("advancedFilter") or "I want the property to have a beautiful sea-side view. I also want to only see discounted properties with air conditioning and a private kitchen."
-        booking_scraping_limit = input_data.get("bookingScrapingLimit") or 3
-        airbnb_scraping_limit = input_data.get("airbnbScrapingLimit") or 3
-        match_exact_filter = input_data.get("matchExactFilter") or False
+        input_data = await Actor.get_input()  # or {}
+        gemini_api_key = input_data.get("geminiApiKey")  # or os.getenv("GEMINI_API_KEY")
+        input_filter = input_data.get("filter")  # or "Looking for a 2-bedroom accommodation in Barcelona with ratings above 4.0 and a price between $100 and $300 per night"
+        advanced_filter = input_data.get("advancedFilter")  # or "I want the property to have a beautiful sea-side view. I also want to only see discounted properties with air conditioning and a private kitchen."
+        booking_scraping_limit = input_data.get("bookingScrapingLimit")  # or 3
+        airbnb_scraping_limit = input_data.get("airbnbScrapingLimit")  # or 3
+        match_exact_filter = input_data.get("matchExactFilter")  # or False
 
         __log_actor_input(input_filter, advanced_filter, booking_scraping_limit, airbnb_scraping_limit, match_exact_filter)
 

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Updated pricing model;&#10;Fixed 0 scraping items bug">
+    <list default="true" id="e24bb5f1-6ebb-4fad-a1de-766dee7786ae" name="Changes" comment="Rewrote README.md;&#10;Added mock files to gitignore and dockerignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apify_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apify_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
@@ -50,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.src.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741811734141</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rewrote README.md;&#10;Added mock files to gitignore and dockerignore">
+      <option name="closed" value="true" />
+      <created>1741886622342</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741886622342</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +215,7 @@
     <MESSAGE value="Updated pricing and logging" />
     <MESSAGE value="Redefined scraping limit fields;&#10;Made Gemini API calls parallel" />
     <MESSAGE value="Updated pricing model;&#10;Fixed 0 scraping items bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated pricing model;&#10;Fixed 0 scraping items bug" />
+    <MESSAGE value="Rewrote README.md;&#10;Added mock files to gitignore and dockerignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrote README.md;&#10;Added mock files to gitignore and dockerignore" />
   </component>
 </project>
